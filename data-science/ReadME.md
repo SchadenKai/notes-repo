@@ -10,6 +10,7 @@
    - The average squared difference between the estimated values and the actual value.
     - This is commonly used in regression tasks.
 ![OpenAI Logo](https://openai.com/assets/colored-logos/openai-logo-3200x1100.png)
+![MSE Formula](mse-formula.png)
 
 1. Binary Cross Entropy (Log Loss)
 2. Categorical Cross Entropy
