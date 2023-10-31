@@ -1,5 +1,7 @@
 # Machine Learning 
-
+- A subset of Artificial Intelligence (AI)
+- It is the development of algorithms and statistical models that aims to estimate the relationship between the input and output variables.
+- It is the process of teaching a computer to learn from data and make decisions accordingly. 
 ## End-to-End Learning 
 - A deep learning process
 - This aims to simplify the traditional machine learning pipeline by integrating all the common steps (feature extraction, data validation, text analysis, cleaning, etc.) in machine learning into a single model.
@@ -19,3 +21,22 @@
 ### Catastrophic Forgetting
 - A common problem in incremental learning 
 - This is when the model forgets the previously / old acquired knolwedge when it learns new information.
+
+## Meta Learning
+- Also known as `learning to learn`
+- Making it possible to create deep neural networks with a small amount of data
+
+## Linear Regression
+- tries to fit a linear curve or line based on the distribution of the vector data in the graph.
+- used for forecasting tasks where you aim to predict the future values based on the distribution of past datas.
+- the requirement for it to be used as the right model is that the data must be [parametric](../data-analytics/ReadME.md). 
+
+## Logistic Regression
+- closely similar to linear regression but more specialized for classification tasks.
+- Instead of fitting a straight line in the scattered data, logistic fits an "S" curve, ranging from 0 to 1. 
+- 0 values corresponds to negative values of X while 1 values corresponds to positive values of X.
+- similar to linear regression, the data must also be [parametric](../data-analytics/ReadME.md) 
+
+## Cost Function / Loss Function 
+- measures the performance of a machine learning model for given data. On how well the model maps out the relationship between the input and output.
+- in machine learning, your goal is to attain and minimize the value of the cost function
