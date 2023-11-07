@@ -17,10 +17,12 @@
 - A machine learning method where the model is trained on new data over time.
 - It is where the model continouously / progressively learns without forgetting previously acquired information.
 - This is in contrast to traditional batch learning where the model is trained in a single session and is not updated.
+- Making the model capable of training continuously
 
 ### Catastrophic Forgetting
 - A common problem in incremental learning 
 - This is when the model forgets the previously / old acquired knolwedge when it learns new information.
+- This is when training using back propagation and standard cross-entropy loss with only the new classes training data, the model can forget its learned knowledge on the old classes
 
 ## Meta Learning
 - Also known as `learning to learn`
@@ -40,3 +42,22 @@
 ## Cost Function / Loss Function 
 - measures the performance of a machine learning model for given data. On how well the model maps out the relationship between the input and output.
 - in machine learning, your goal is to attain and minimize the value of the cost function
+
+## Recurrent Neural Network 
+- the processed output by a model will be appended to the next input to the same model (meaning that the data is in continuous loop)
+
+### Long term dependency problem
+- the increase in steps in the model, the information piles up, hence making the model not effective in learning new inputs 
+
+## Long Short Term Memory
+- Solution for long term dependency problem 
+- LSTM carefully picks necessary inputs based on the context and outputs the information. This forgets other unncessary information reoccuring in the RNN. 
+- adds an internal state in the RNN called LSTM cell state.
+- The LSTM cell, the node that is working on the LSTM cell state, is composed of 3 gates (Forget gate, Input gate, and Output gate)
+    - `Forget gates` pass through information that are not necessary based on the context 
+    - `Input gates` pass through information that is useful for the RNN towards the internal state
+    - `Output gates` outputs all the necessary / filtered information processed by the LSTM cell
+
+
+
+

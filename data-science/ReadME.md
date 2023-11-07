@@ -24,3 +24,4 @@
 4. Hinge Loss
    - Used in support vector machines (SVMs)
    - Used in classification models, more particular in maximum margin classification.
+
